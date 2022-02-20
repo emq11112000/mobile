@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView2" type="id" />
+    <item name="imageView3" type="id" />
+    <item name="usered" type="id" />
+    <item name="username" type="id" />
+    <item name="id1" type="id" />
+    <item name="ID" type="id" />
+    <item name="Firstname" type="id" />
+    <item name="pass" type="id" />
+    <item name="state" type="id" />
+    <item name="phoneNum" type="id" />
+    <item name="Lastname" type="id" />
+    <item name="Password" type="id" />
+    <item name="Phone" type="id" />
+    <item name="address" type="id" />
+    <item name="lastname" type="id" />
+    <item name="firstname" type="id" />
+    <item name="imageView6" type="id" />
+    <item name="imageView7" type="id" />
+    <item name="imageView8" type="id" />
+    <item name="imageView10" type="id" />
+    <item name="imageView11" type="id" />
+    <item name="show_dialog_chOut" type="id" />
+    <item name="switch1" type="id" />
+    <item name="switch2" type="id" />
+    <item name="spinner1" type="id" />
+    <item name="spinner2" type="id" />
+    <item name="guideline2" type="id" />
+    <item name="show_dialog_chIn" type="id" />
+</resources>

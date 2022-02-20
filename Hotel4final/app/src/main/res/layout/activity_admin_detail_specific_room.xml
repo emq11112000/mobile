@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".AdminDetailSpecificRoom">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="306dp">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:gravity="bottom"
+            android:padding="10dip"
+            app:centered="true"
+            app:fillColor="#df0623"
+            app:pageColor="#fff"
+            app:snap="false" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="482dp">
+
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="86dp"
+            android:layout_marginEnd="-4dp"
+            android:layout_marginBottom="356dp"
+            android:text="Phone :" />
+
+        <TextView
+            android:id="@+id/State"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="-4dp"
+            android:layout_marginBottom="397dp"
+            android:text="State :" />
+
+        <TextView
+            android:id="@+id/User_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="247dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="438dp"
+            android:text="User Name :" />
+
+        <TextView
+            android:id="@+id/Last_Name"
+            android:layout_width="130dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="284dp"
+            android:layout_marginEnd="276dp"
+            android:layout_marginBottom="159dp"
+            android:text="Last Name : " />
+
+        <TextView
+            android:id="@+id/FirstName"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="243dp"
+            android:layout_marginEnd="274dp"
+            android:layout_marginBottom="201dp"
+            android:text="First Name :" />
+
+        <TextView
+            android:id="@+id/Room_Number"
+            android:layout_width="128dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="281dp"
+            android:layout_marginBottom="439dp"
+            android:text="Room Number :" />
+
+        <TextView
+            android:id="@+id/Room_Type"
+            android:layout_width="129dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="279dp"
+            android:layout_marginBottom="398dp"
+            android:text="Room Type :" />
+
+        <TextView
+            android:id="@+id/standard_occupancy"
+            android:layout_width="136dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="274dp"
+            android:layout_marginBottom="363dp"
+            android:text="Standard Occupancy :" />
+
+        <TextView
+            android:id="@+id/maximum_occupancy"
+            android:layout_width="148dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="261dp"
+            android:layout_marginBottom="321dp"
+            android:text="Maximum Occupancy:" />
+
+        <TextView
+            android:id="@+id/per_extra_person"
+            android:layout_width="135dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="251dp"
+            android:layout_marginTop="127dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="312dp"
+            android:text="Per Extra Person :" />
+
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="133dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="163dp"
+            android:layout_marginEnd="274dp"
+            android:layout_marginBottom="280dp"
+            android:text="price :" />
+
+        <TextView
+            android:id="@+id/Guest_Id"
+            android:layout_width="137dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginEnd="271dp"
+            android:layout_marginBottom="241dp"
+            android:text="Guest Id :" />
+
+        <TextView
+            android:id="@+id/smoking"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="253dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="274dp"
+            android:text="Smoking :" />
+
+        <TextView
+            android:id="@+id/Jacuzzi"
+            android:layout_width="137dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="254dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="233dp"
+            android:text="Jacuzzi :" />
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginEnd="173dp"
+            android:layout_marginBottom="130dp"
+            android:onClick="btn_Click_BACK"
+            android:text="BACK"
+            style="@style/buttons"
+            android:background="@drawable/custom"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

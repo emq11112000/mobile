@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="credit" />
+    <drawable name="date" />
+    <drawable name="phone" />
+    <drawable name="location" />
+    <drawable name="ic_baseline_location_on_24" />
+    <drawable name="ic_baseline_person_24" />
+    <drawable name="ic_baseline_person_outline_24" />
+    <drawable name="ic_baseline_phone_android_24" />
+</resources>

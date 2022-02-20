@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Palestine Hotel</string>
+    <string name="Double">Double</string>
+    <string name="search_for_the_best_room">Search for the best room:</string>
+    <string name="smoking">Smoking</string>
+    <string name="search">Search</string>
+    <string name="adult_s_number">Adult\'s number:</string>
+    <string name="children_s_number">children\'s number:</string>
+    <string name="haven_t_account">sing up</string>
+    <string name="login"> login</string>
+    <string name="username"> username</string>
+    <string name="password"> password</string>
+    <string name="signin" />
+    <string name="Password">password</string>
+    <string name="total_person">Total person:</string>
+    <string name="signup">signup</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="username_customer">username@customer</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="state">State:</string>
+    <string name="zip">Zip</string>
+
+    <string name="todo">TODO</string>
+    <string name="previous">previous</string>
+    <string name="next">Next</string>
+    <string name="book">Book</string>
+    <string name="maximum_occupancy">Maximum Occupancy</string>
+    <string name="room_number">Room Number</string>
+    <string name="room_type">Room type</string>
+    <string name="standard_occupancy">Standard Occupancy :</string>
+    <string name="price">Price :</string>
+    <string name="per_extra_person">Per Extra Person :</string>
+    <string name="jacuzzi">Jacuzzi :</string>
+    <string name="availability">Availability :</string>
+    <string name="pay_now">Pay now</string>
+</resources>
